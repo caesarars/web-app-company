@@ -1,0 +1,12 @@
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#startProjectBtn {
+    background-color: rgba(251, 171, 24, 1);
+    padding: 16px;
+    border-radius: 32px;
+    font-weight: bold;
+    font-size:1em;
+    color:white;
+}

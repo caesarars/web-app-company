@@ -1,0 +1,19 @@
+#wrapper-container-partner {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    width: 100%;
+    height: 58vh;
+    margin: 0 auto;
+}
+
+#black-box {
+    width: 5%;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo-img {
+    margin:0 auto;
+    padding-right: 64px;
+}

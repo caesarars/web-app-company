@@ -1,0 +1,52 @@
+#image-container{
+    width: 93%;
+    height: 30vh;
+    margin: 0 auto;
+    background-image: url("../static/img/background-image.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+    border-radius: 20px;
+}
+
+.bg-overlay {
+  /* Positioning */
+  position: absolute;
+  width: 100%;
+  top:0;
+  left:0;
+  height: 100%;
+  border-radius: 20px;
+  /* Dark color with transparency */
+  background-color: rgba(0, 0, 0, 0.2); /* Change the last value (0.5) for opacity */
+  z-index: 10;
+}
+
+.banner-content-left  {
+    height: 30vh;
+    position: relative;
+    z-index: 100;
+}
+
+#child-banner-content-left {
+    height: 28vh;
+    justify-content: center;
+    text-align: left;
+}
+.wrapper-btn-arr {
+    height: 30vh;
+    justify-content: center;
+    align-content: center;
+}
+
+#button-arrow-top {
+    position: relative;
+    z-index: 100;
+    color:white;
+    background-color: rgba(251, 171, 24, 1);
+    padding:16px;
+    border-radius: 32px;
+    font-size: 16px;
+    font-weight: bold;
+}
