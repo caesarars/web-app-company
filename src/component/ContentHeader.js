@@ -1,6 +1,7 @@
 import React from "react";
 import homepageKawanKerja from "../static/img/hompage-kawan-kerja.png"
 import svgArrow from "../static/icon/arrow-up-right.svg"
+import "./ContentHeader.css"
 
 class ContentHeader extends React.Component {
     render() {
@@ -10,11 +11,11 @@ class ContentHeader extends React.Component {
                         <div className="col-md-1"></div>
                         <div className="col-md-5" style={{maxWidth:"520px"}}>
                             <div className="row">
-                                <h1 style={{textAlign:"left", marginBottom:"24px", fontSize: "48px", fontWeight:"bold"}}>
+                                <h1 id="title-h1">
                                     We Make Life Easier For The World
                                 </h1>
                                 <br></br>
-                                <span style={{fontSize:"1.2em", textAlign:"left", fontSize:"20px"}}>
+                                <span id="title-span">
                                     We are a company with a short history of creating product innovations that can benefit directly or indirectly.
                                 </span>
                             </div>
