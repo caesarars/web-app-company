@@ -15,8 +15,8 @@ class Partner extends React.Component {
     render () {
         return (
             <div id="wrapper-container-partner">
-                <div className="row">
-                    <div className="pt-5 mt-2 d-flex flex-column align-items-center justify-content-center">
+                <div className="row pt-1">
+                    <div className="pt-5 mt-5 d-flex flex-column align-items-center justify-content-center">
                         <span style={{fontWeight:"bold", fontSize: "32px"}}>Our Trusted Partners:</span>
                         <span style={{fontWeight:"bold", fontSize: "32px"}}>A Testament to Our Success</span>
                         <div id="black-box"></div>
