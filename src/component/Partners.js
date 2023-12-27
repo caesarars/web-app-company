@@ -6,7 +6,7 @@ import logoAjaib from "../static/img/ajaib.png"
 import logoOgilvy from "../static/img/ogilvy.png"
 import logoRaya from "../static/img/raya.png"
 import logoRpx from "../static/img/rpx.png"
-import logoSayurbox from "../static/img/sayurbox.png"
+import logoSayurbox from "../static/img/sayurbox-logo.png"
 import logoTelin from "../static/img/telin.png"
 import logoCashbac from "../static/img/cashbac.png"
 import logoCodex from "../static/img/codex.png"
@@ -15,7 +15,7 @@ class Partner extends React.Component {
     render () {
         return (
             <div id="wrapper-container-partner">
-                <div className="row pt-1">
+                <div className="row pt-2">
                     <div className="pt-5 mt-5 d-flex flex-column align-items-center justify-content-center">
                         <span style={{fontWeight:"bold", fontSize: "32px"}}>Our Trusted Partners:</span>
                         <span style={{fontWeight:"bold", fontSize: "32px"}}>A Testament to Our Success</span>
