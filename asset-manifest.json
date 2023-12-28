@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/web-app-company/static/css/main.13bc3dcf.css",
-    "main.js": "/web-app-company/static/js/main.f6f55859.js",
+    "main.css": "/web-app-company/static/css/main.de0dddf6.css",
+    "main.js": "/web-app-company/static/js/main.43c9f711.js",
     "static/js/787.a9f86cd4.chunk.js": "/web-app-company/static/js/787.a9f86cd4.chunk.js",
     "static/media/background-image.jpeg": "/web-app-company/static/media/background-image.288d061f584620c90876.jpeg",
     "static/media/brand-icons.svg": "/web-app-company/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/web-app-company/static/media/icons.62d9dae4e0040e81c980.svg",
+    "static/media/sports-gear.png": "/web-app-company/static/media/sports-gear.9fe3463447cb2da19781.png",
+    "static/media/e-learning apps.png": "/web-app-company/static/media/e-learning apps.e8e0097a9c247290a08e.png",
+    "static/media/asean-center.png": "/web-app-company/static/media/asean-center.b872222e0d19d0dbf7bb.png",
     "static/media/hompage-kawan-kerja.png": "/web-app-company/static/media/hompage-kawan-kerja.afad8e6a31dadb905284.png",
+    "static/media/amaan-project.png": "/web-app-company/static/media/amaan-project.c56e77df45931d6b8321.png",
+    "static/media/raya-mobile-banking.png": "/web-app-company/static/media/raya-mobile-banking.454fbbf8d108302f52e1.png",
     "static/media/outline-icons.svg": "/web-app-company/static/media/outline-icons.9c4845b4b41ef40a22fa.svg",
     "static/media/icons.eot": "/web-app-company/static/media/icons.a01e3f2d6c83dc3aee17.eot",
     "static/media/icons.ttf": "/web-app-company/static/media/icons.c656b8caa454ed19b9a2.ttf",
     "static/media/brand-icons.eot": "/web-app-company/static/media/brand-icons.d68fa3e67dbb653a13ce.eot",
     "static/media/brand-icons.ttf": "/web-app-company/static/media/brand-icons.65a2fb6d9aaa164b41a0.ttf",
+    "static/media/sayurbox.png": "/web-app-company/static/media/sayurbox.1f444400c3a9974d42da.png",
     "static/media/brand-icons.woff": "/web-app-company/static/media/brand-icons.cac87dc00c87a5d74711.woff",
     "static/media/brand-icons.woff2": "/web-app-company/static/media/brand-icons.278156e41e0ad908cf7f.woff2",
     "static/media/icons.woff": "/web-app-company/static/media/icons.425399f81e4ce7cbd967.woff",
@@ -25,12 +31,12 @@
     "static/media/logo.svg": "/web-app-company/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/web-app-company/index.html",
     "static/media/arrow-up-right.svg": "/web-app-company/static/media/arrow-up-right.0cabbaa3ca4f36de63df7fcf28f66fab.svg",
-    "main.13bc3dcf.css.map": "/web-app-company/static/css/main.13bc3dcf.css.map",
-    "main.f6f55859.js.map": "/web-app-company/static/js/main.f6f55859.js.map",
+    "main.de0dddf6.css.map": "/web-app-company/static/css/main.de0dddf6.css.map",
+    "main.43c9f711.js.map": "/web-app-company/static/js/main.43c9f711.js.map",
     "787.a9f86cd4.chunk.js.map": "/web-app-company/static/js/787.a9f86cd4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13bc3dcf.css",
-    "static/js/main.f6f55859.js"
+    "static/css/main.de0dddf6.css",
+    "static/js/main.43c9f711.js"
   ]
 }
