@@ -1,6 +1,6 @@
 
 .cards {
-    width: 368;
+    width: 368px;
     height: 591px;
     background-color: #F5F5F5;
     margin-top:36px;
@@ -9,4 +9,16 @@
 
 .img-cards {
     border-radius: 18px 18px 0px 0px;
+}
+
+#content-title {
+    width: fit-content;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#content-text {
+    position: relative;
+    width: 358px;
+    text-align: justify;
 }

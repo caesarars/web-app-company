@@ -16,8 +16,17 @@ class LatestWorks extends React.Component {
             rayaMobileBanking, sayurboxPic, amaanProject, aseanCenter, eLearningApps, sportsGearPic
         ];
 
-        const cardsImageComponent = arrayImageUrl.map(url => (
-            <CardsImage imageUrl={url}/>
+        const cardsContent = [
+            {title : "Mobile App", project:"Raya Mobile", imageUrl : arrayImageUrl[0]},
+            {title : "Mobile App", project:"SayurBox Mobile App", imageUrl : arrayImageUrl[1]},
+            {title : "Website App", project:"AMAAN Design & Development Resonsive", imageUrl : arrayImageUrl[2]},
+            {title : "Website App", project:"Asean Center For Energy", imageUrl : arrayImageUrl[3]},
+            {title : "Mobile App", project:"E-Learning Apps", imageUrl : arrayImageUrl[4]},
+            {title : "Website App", project:"Sports Gear - E Commerce For Sports Item", imageUrl : arrayImageUrl[5]},
+        ]
+
+        const cardsImageComponent = cardsContent.map(content => (
+            <CardsImage title={content.title} project={content.project} imageUrl={content.imageUrl}/>
         ))
 
         const caseStudiesStyles = {textAlign:"left", fontWeight:"700" , fontSize: "36px"}
@@ -47,7 +56,6 @@ class LatestWorks extends React.Component {
                         </h2>
                     </div>
                 </div>
-
                 <div className="row mt-5 pt-3">
                     <div className="wrapper-cards">
                        {cardsImageComponent}
