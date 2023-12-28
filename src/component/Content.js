@@ -5,6 +5,7 @@ import ImageBanner from "./ImageBanner";
 import Partners from "./Partners";
 import ContentHeader from "./ContentHeader";
 import LatestWorks from "./LatestWorks";
+import ReviewCarousel from "./ReviewCarousel";
 
 class Content extends React.Component {
     render() {
@@ -18,6 +19,7 @@ class Content extends React.Component {
                 <div>
                     <Partners />
                     <LatestWorks/>
+                    <ReviewCarousel />
                 </div>
             </div>
         )

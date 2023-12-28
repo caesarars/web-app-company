@@ -33,7 +33,7 @@ class LatestWorks extends React.Component {
 
 
         return (
-            <div className="container mt-5 pt-5">
+            <div className="container mt-5 pt-5 mb-5 pb-5">
                 <div className="row">
                     <div className="col-md-6 d-flex">
                         <div id="w-ob">   

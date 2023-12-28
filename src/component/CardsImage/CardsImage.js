@@ -7,7 +7,16 @@ class CardsImage extends React.Component {
 
         const { imageUrl, title, project } = this.props;
 
-        const styleCards = { width: "18rem", minWidth: "368px", minHeight: "640px", border: "none", marginTop: "32px", overflow: "hidden", borderRadius: "16px" }
+        const styleCards = { 
+            width: "18rem", 
+            minWidth: "368px", 
+            minHeight: "640px", 
+            border: "none", 
+            marginTop: "32px", 
+            overflow: "hidden", 
+            borderRadius: "16px" ,
+            boxShadow : "0px 0px 0px 0px #00000008"
+        }
 
         return (
             <div>
