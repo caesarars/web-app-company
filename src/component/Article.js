@@ -35,8 +35,8 @@ class Article extends React.Component {
                 <div className="row mt-5 pt-3 mb-2">
                     <span id="title-read">Read Our Latest News & Article</span>
                 </div>
-                <div className="row mt-5 mb-5">
-                    <div className="wrapper-reads">
+                <div className="row mt-5">
+                    <div className="wrapper-reads" style={{width:"60%"}}>
                         <div id="rounded-orange" class="type-article">
                             All News & Blog
                         </div>
