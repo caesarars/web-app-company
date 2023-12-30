@@ -1,5 +1,16 @@
 .wrapper-review {
     background: #F4F4F4;
-    height: 40vh;
-    margin: 0 auto;
+    height: 420px;
+}
+
+.wrapper-arrow{
+    display: flex;
+    justify-content: center; /* Horizontally centers child elements */
+    align-items: center;
+    height: 360px;
+}
+
+.wrapper-arrow img {
+    max-width: 100%; /* Adjust as needed */
+    max-height: 100%;
 }

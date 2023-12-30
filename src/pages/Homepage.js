@@ -7,7 +7,7 @@ import ServiceContent from "../component/ServiceContent";
 class Homepage extends React.Component {
     render () {
         return (
-            <div style={{height:"1200vh"}}>
+            <div style={{height:"fit-content"}}>
                 <NavBar/>
                 <Content/>
             </div>  

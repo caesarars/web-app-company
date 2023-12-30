@@ -5,7 +5,7 @@ import arrowTopRightBlack from "../../static/icon/arrow-up-right-black.png"
 class CardsImage extends React.Component {
     render() {
 
-        const { imageUrl, title, project } = this.props;
+        const { imageUrl, title, project, isArticle} = this.props;
 
         const styleCards = { 
             width: "18rem", 
@@ -32,7 +32,9 @@ class CardsImage extends React.Component {
                     <div className="card-footer"  style={{border:"none", backgroundColor:"#f2f2f2" , paddingBottom:"16px", textAlign:"left"}}>
                         <div className="row">
                             <div className="col-md-9">
-                                    <span style={{fontSize:"18px", fontWeight:"700",paddingBottom:"48px"}}>See Detail Case Study</span>
+                                    <span style={{fontSize:"18px", fontWeight:"700",paddingBottom:"48px"}}>
+                                    { isArticle == true ? "Read Article" :"See Detail Case Study" }
+                                    </span>
                             </div>
                             <div className="col-md-3" style={{margin : "auto 0"}}>
                                 <img style={{float:"right"}} src={arrowTopRightBlack} />
