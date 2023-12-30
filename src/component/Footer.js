@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css"
 import dlTechLogo from "../static/img/dltech-logo-l.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Footer extends React.Component {
     render() {
