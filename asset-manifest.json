@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/web-app-company/static/css/main.deedd012.css",
+    "main.css": "/web-app-company/static/css/main.f87b9123.css",
     "main.js": "/web-app-company/static/js/main.b142338d.js",
     "static/js/787.a9f86cd4.chunk.js": "/web-app-company/static/js/787.a9f86cd4.chunk.js",
     "static/media/background-image.jpeg": "/web-app-company/static/media/background-image.288d061f584620c90876.jpeg",
@@ -34,12 +34,12 @@
     "static/media/logo.svg": "/web-app-company/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/web-app-company/index.html",
     "static/media/arrow-up-right.svg": "/web-app-company/static/media/arrow-up-right.0cabbaa3ca4f36de63df7fcf28f66fab.svg",
-    "main.deedd012.css.map": "/web-app-company/static/css/main.deedd012.css.map",
+    "main.f87b9123.css.map": "/web-app-company/static/css/main.f87b9123.css.map",
     "main.b142338d.js.map": "/web-app-company/static/js/main.b142338d.js.map",
     "787.a9f86cd4.chunk.js.map": "/web-app-company/static/js/787.a9f86cd4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.deedd012.css",
+    "static/css/main.f87b9123.css",
     "static/js/main.b142338d.js"
   ]
 }
