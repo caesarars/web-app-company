@@ -18,13 +18,23 @@ class CardsImage extends React.Component {
             boxShadow : "0px 0px 0px 0px #00000008"
         }
 
+        const handleProjectName = () => {
+            let length = project.length
+            let temp = "" 
+            if (length > 30 ) {
+                return project.substring(0,22) +" . . . "            
+            } else {
+                return project
+            }
+        }
+
         return (
             <div>
                 <div className="card" style={styleCards}>
                     <img src={imageUrl} className="card-img-top" alt="..."/>
                     <div className="card-body" style={{backgroundColor:"#f2f2f2", textAlign:"left"}}>
                         <p className="card-title p-2" style={{fontSize:"16px"}}>{title}</p>
-                        <h5 className="card-title p-2" style={{fontSize:"24px" , fontWeight:"700", minWidth:"368px", textWrap:"nowrap",overflow:"hidden"}}>{project}</h5>
+                        <h5 className="card-title p-2" style={{fontSize:"24px" , fontWeight:"700", minWidth:"368px", textWrap:"nowrap",overflow:"hidden"}}>{handleProjectName()}</h5>
                         <p className="card-text p-2" style={{fontSize:"18px", textAlign:"justify"}}>
                             Lorem ipsum dolor sit amet consectetur. Mattis sed orci turpis euismod id eu sem. Proin urna cursus dolor nunc id ac mal. Lorem ipsum dolor sit amet consectetur. Mattis sed orci turpis euismod id eu sem. Proin urna cursus dolor nunc id ac mal
                         </p>
