@@ -3,6 +3,8 @@ import "./Footer.css"
 import dlTechLogo from "../static/img/dltech-logo-l.png"
 import arrowTopRight from "../static/icon/arrow-up-right.svg"
 import telpIcon from "../static/icon/telp-icon.png"
+import mailIcon from "../static/icon/mail-icon.png"
+import mapPinIcon from "../static/icon/map-pin.png"
 
 class Footer extends React.Component {
     render() {
@@ -18,9 +20,9 @@ class Footer extends React.Component {
                                     <span style={{fontSize:"16px"}}>Lorem ipsum dolor sit amet consectetur. At ultrices elementum ultrices velit a id. Nibh enim diam euismod hendrerit ac enim.</span>
                                 </div>
                                 <div className="mt-3" id="info-contact">
-                                   <p>info@kawankerja.co</p>
+                                   <p><img src={mailIcon} style={{width:"20px", height:"20px"}}/> &nbsp;&nbsp; info@kawankerja.co</p>
                                    <p> <img src={telpIcon} style={{width:"20px", height:"20px"}}/> &nbsp;&nbsp;+62 123 45678 90</p>
-                                   <p>Bandung, Jawa Barat</p>
+                                   <p><img src={mapPinIcon} style={{width:"20px", height:"20px"}}/> &nbsp;&nbsp; Bandung, Jawa Barat</p>
                                 </div>
                             </div>
                         </div>
