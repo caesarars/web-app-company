@@ -1,8 +1,8 @@
 import React from "react";
 import "./ReviewCarousel.css"
-import doubleQouteIcon from "../static/icon/double-qoutes.png"
-import leftArrow from "../static/icon/left-arrow-car.png"
-import rightArrow from "../static/icon/right-arrow-car.png"
+import doubleQouteIcon from "../../static/icon/double-qoutes.png"
+import leftArrow from "../../static/icon/left-arrow-car.png"
+import rightArrow from "../../static/icon/right-arrow-car.png"
 
 class ReviewCarousel extends React.Component {
 
@@ -39,7 +39,7 @@ class ReviewCarousel extends React.Component {
                                 <img src={rightArrow} />
                             </div>
                         </div>
-                    </div>
+                  ../  </div>
             </div>
         )
     }

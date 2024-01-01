@@ -1,10 +1,10 @@
 import React from "react";
 import "./Footer.css"
-import dlTechLogo from "../static/img/dltech-logo-l.png"
-import arrowTopRight from "../static/icon/arrow-up-right.svg"
-import telpIcon from "../static/icon/telp-icon.png"
-import mailIcon from "../static/icon/mail-icon.png"
-import mapPinIcon from "../static/icon/map-pin.png"
+import dlTechLogo from "../../static/img/dltech-logo-l.png"
+import arrowTopRight from "../../static/icon/arrow-up-right.svg"
+import telpIcon from "../../static/icon/telp-icon.png"
+import mailIcon from "../../static/icon/mail-icon.png"
+import mapPinIcon from "../../static/icon/map-pin.png"
 
 class Footer extends React.Component {
     render() {

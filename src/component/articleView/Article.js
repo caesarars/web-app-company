@@ -1,9 +1,9 @@
 import React from "react";
 import "./Article.css"
-import CardsImage from "./CardsImage/CardsImage";
-import responsiveImageUrl from "../static/img/responsive-design.png"
-import risetUxImageUrl from "../static/img/kekuatan-rise-ux.png"
-import aksebilitasUxImgUrl from "../static/img/aksebilitas-ux.png"
+import CardsImage from "./../CardsImage/CardsImage";
+import responsiveImageUrl from "../../static/img/responsive-design.png"
+import risetUxImageUrl from "../../static/img/kekuatan-rise-ux.png"
+import aksebilitasUxImgUrl from "../../static/img/aksebilitas-ux.png"
 
 
 class Article extends React.Component {

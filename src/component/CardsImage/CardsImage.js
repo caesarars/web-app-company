@@ -35,8 +35,8 @@ class CardsImage extends React.Component {
                     <div className="card-body" style={{backgroundColor:"#f2f2f2", textAlign:"left"}}>
                         <p className="card-title p-2" style={{fontSize:"16px"}}>{title}</p>
                         <h5 className="card-title p-2" style={{fontSize:"24px" , fontWeight:"700", minWidth:"368px", textWrap:"nowrap",overflow:"hidden"}}>{handleProjectName()}</h5>
-                        <p className="card-text p-2" style={{fontSize:"18px", textAlign:"justify"}}>
-                            Lorem ipsum dolor sit amet consectetur. Mattis sed orci turpis euismod id eu sem. Proin urna cursus dolor nunc id ac mal. Lorem ipsum dolor sit amet consectetur. Mattis sed orci turpis euismod id eu sem. Proin urna cursus dolor nunc id ac mal
+                        <p className="card-text p-2" style={{fontSize:"18px", textAlign:"left"}}>
+                            Lorem ipsum dolor sit amet consectetur. Mattis sed orci turpis euismod id eu sem. Proin urna cursus dolor nunc id ac mal. Lor...
                         </p>
                         <div className="card-text p-2">
                             <span style={{fontSize:"18px", fontWeight:"700"}}>

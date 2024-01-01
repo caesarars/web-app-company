@@ -1,7 +1,7 @@
 import React from "react";
 
-class CardArticle extends React.Component {
-    redner() {
+class Service extends React.Component {
+    render() {
         return (
             <div>
 
@@ -10,4 +10,4 @@ class CardArticle extends React.Component {
     }
 }
 
-export default CardArticle;
+export default Service;

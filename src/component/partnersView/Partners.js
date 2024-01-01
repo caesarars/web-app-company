@@ -1,15 +1,15 @@
 import React from "react";
 import "./Partners.css"
-import logoBankBri from "../static/img/bank-bri.png"
-import logoBankBni from "../static/img/bank-bni.png"
-import logoAjaib from "../static/img/ajaib.png"
-import logoOgilvy from "../static/img/ogilvy.png"
-import logoRaya from "../static/img/raya.png"
-import logoRpx from "../static/img/rpx.png"
-import logoSayurbox from "../static/img/sayurbox-logo.png"
-import logoTelin from "../static/img/telin.png"
-import logoCashbac from "../static/img/cashbac.png"
-import logoCodex from "../static/img/codex.png"
+import logoBankBri from "../../static/img/bank-bri.png"
+import logoBankBni from "../../static/img/bank-bni.png"
+import logoAjaib from "../../static/img/ajaib.png"
+import logoOgilvy from "../../static/img/ogilvy.png"
+import logoRaya from "../../static/img/raya.png"
+import logoRpx from "../../static/img/rpx.png"
+import logoSayurbox from "../../static/img/sayurbox-logo.png"
+import logoTelin from "../../static/img/telin.png"
+import logoCashbac from "../../static/img/cashbac.png"
+import logoCodex from "../../static/img/codex.png"
 
 class Partner extends React.Component {
     render () {

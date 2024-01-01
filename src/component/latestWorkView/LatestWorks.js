@@ -1,12 +1,12 @@
 import React from "react";
 import "./LatestWorks.css"
-import rayaMobileBanking from "../static/img/raya-mobile-banking.png"
-import sayurboxPic from "../static/img/sayurbox.png"
-import amaanProject from "../static/img/amaan-project.png"
-import aseanCenter from "../static/img/asean-center.png"
-import eLearningApps from "../static/img/e-learning apps.png"
-import sportsGearPic from "../static/img/sports-gear.png"
-import CardsImage from "./CardsImage/CardsImage";
+import rayaMobileBanking from "../../static/img/raya-mobile-banking.png"
+import sayurboxPic from "../../static/img/sayurbox.png"
+import amaanProject from "../../static/img/amaan-project.png"
+import aseanCenter from "../../static/img/asean-center.png"
+import eLearningApps from "../../static/img/e-learning apps.png"
+import sportsGearPic from "../../static/img/sports-gear.png"
+import CardsImage from "./../CardsImage/CardsImage";
 
 class LatestWorks extends React.Component {
     

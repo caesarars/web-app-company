@@ -1,6 +1,6 @@
 import React from "react";
 import "./ImageBanner.css"
-import arrowUpRight from "../static/icon/arrow-up-right.svg"
+import arrowUpRight from "../../static/icon/arrow-up-right.svg"
 
 class ImageBanner extends React.Component {
     render () {

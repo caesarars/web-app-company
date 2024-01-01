@@ -1,6 +1,6 @@
 import React from "react";
-import homepageKawanKerja from "../static/img/hompage-kawan-kerja.png"
-import svgArrow from "../static/icon/arrow-up-right.svg"
+import homepageKawanKerja from "../../static/img/hompage-kawan-kerja.png"
+import svgArrow from "../../static/icon/arrow-up-right.svg"
 import "./ContentHeader.css"
 
 class ContentHeader extends React.Component {

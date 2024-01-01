@@ -1,8 +1,8 @@
 import React from "react";
 import "./ServiceContent.css"
-import iconService1 from "../static/icon/icon-service-1.png"
-import iconService2 from "../static/icon/icon-service-2.png"
-import iconService3 from "../static/icon/icon-service-3.png"
+import iconService1 from "../../static/icon/icon-service-1.png"
+import iconService2 from "../../static/icon/icon-service-2.png"
+import iconService3 from "../../static/icon/icon-service-3.png"
 
 
 class ServiceContent extends React.Component {

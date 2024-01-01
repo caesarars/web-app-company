@@ -2,7 +2,7 @@
     width: 93%;
     height: 30vh;
     margin: 0 auto;
-    background-image: url("../static/img/background-image.jpeg");
+    background-image: url("../../static/img/background-image.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;

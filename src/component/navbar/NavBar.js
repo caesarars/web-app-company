@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Menu, Image} from "semantic-ui-react";
-import logoKawanKerja from "../static/img/dltech-logo-l.png"
+import logoKawanKerja from "../../static/img/dltech-logo-l.png"
 
 import "./NavBar.css"
 

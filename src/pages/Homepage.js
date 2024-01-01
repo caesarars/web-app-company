@@ -1,7 +1,6 @@
 import React from "react";
-import NavBar from "../component/NavBar";
+import NavBar from "../component/navbar/NavBar";
 import Content from "../component/Content";
-import ServiceContent from "../component/ServiceContent";
 
 
 class Homepage extends React.Component {
