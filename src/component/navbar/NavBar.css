@@ -16,9 +16,32 @@
     width: 96px;
 }
 
+.nav-link {
+    cursor: pointer;
+}
+
 .menu-item:hover {
+    border-bottom: 4px solid grey;
+    color : grey;
+}
+
+.menu-item-active {
+    font-size: 1.3em;
+    margin-right: 12px;
+    width: 96px;
+}
+
+.menu-item-active {
     border-bottom: 4px solid black;
     color : black;
+}
+
+.active {
+    color:black;
+}
+
+.non-active {
+    color:grey;
 }
 
 #contactus {

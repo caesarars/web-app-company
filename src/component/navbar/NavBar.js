@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, {Component, useState} from "react";
 import {Menu, Image} from "semantic-ui-react";
 import logoKawanKerja from "../../static/img/dltech-logo-l.png"
 
@@ -11,9 +11,21 @@ class NavBar extends Component {
         this.state = {
           active: "Home",
         };
-      }
+    }
+     
+    listOfNavName = [
+        'Home',
+        'About',
+        'Services',
+        'Works',
+        'Blog'
+    ]
+  
+     handleClickMenu = (name) => {
+        this.setState({ active: name });
+        console.log(name)
+    }
 
-    handleClickMenu = (e, { name }) => this.setState({ active: name })
 
     render() {
         return (
@@ -29,20 +41,35 @@ class NavBar extends Component {
                     <div className="col-md-1"></div>
                     <div className="col-md-6 collapse navbar-collapse">
                         <ul className="navbar-nav mr-auto mynav d-flex justify-content-center">
-                            <li className="nav-link menu-item">
-                               <span className="nav-item active">Home</span>
+                            <li onClick={() => this.handleClickMenu('Home')} 
+                                className={this.state.active == 'Home' ? 'nav-link menu-item-active' : 'nav-link menu-item'}>
+                               <span className={this.state.active == 'Home' ? 'nav-item active' : 'nav-item non-active'}>
+                                    Home
+                               </span>
                             </li>
-                            <li className="nav-link menu-item">
-                                <span className="nav-item">About</span>
+                            <li onClick={() => this.handleClickMenu('About')} 
+                                className={this.state.active == 'About' ? 'nav-link menu-item-active' : 'nav-link menu-item'}>
+                                <span className={this.state.active == 'About' ? 'nav-item active' : 'nav-item non-active'}>
+                                    About
+                                </span>
                             </li>
-                            <li className="nav-link menu-item">
-                                <span className="nav-item">Services</span>
+                            <li onClick={() => this.handleClickMenu('Services')} 
+                                className={this.state.active == 'Services' ? 'nav-link menu-item-active' : 'nav-link menu-item'}>
+                                <span className={this.state.active == 'Services' ? 'nav-item active' : 'nav-item non-active'}>
+                                    Services
+                                </span>
                             </li>
-                            <li className="nav-link menu-item">
-                                <span className="nav-item">Works</span>
+                            <li onClick={() => this.handleClickMenu('Works')} 
+                                className={this.state.active == 'Works' ? 'nav-link menu-item-active' : 'nav-link menu-item'}>
+                                <span className={this.state.active == 'Works' ? 'nav-item active' : 'nav-item non-active'}>
+                                    Works
+                                </span>
                             </li>
-                            <li className="nav-link menu-item">
-                                <span className="nav-item">Blog</span>
+                            <li onClick={() => this.handleClickMenu('Blog')} 
+                                className={this.state.active == 'Blog' ? 'nav-link menu-item-active' : 'nav-link menu-item'}>
+                                <span className={this.state.active == 'Blog' ? 'nav-item active' : 'nav-item non-active'}>
+                                    Blog
+                                </span>
                             </li>
                             <li style={{"marginLeft" : "16px"}}className="nav-link" id="contactus">
                                 <span className="nav-item">Contact Us</span>
