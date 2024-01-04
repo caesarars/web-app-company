@@ -31,18 +31,18 @@ class CardsImage extends React.Component {
         return (
             <div>
                 <div className="card" style={styleCards}>
-                    <img src={imageUrl} className="card-img-top" alt="..."/>
+                    <img id="img-card" src={imageUrl} className="card-img-top" alt="..."/>
                     <div className="card-body" style={{backgroundColor:"#f2f2f2", textAlign:"left"}}>
                         <p className="card-title p-2" style={{fontSize:"16px"}}>{title}</p>
                         <h5 className="card-title p-2" style={{fontSize:"24px" , fontWeight:"700", minWidth:"368px", textWrap:"nowrap",overflow:"hidden"}}>{handleProjectName()}</h5>
                         <p className="card-text p-2" style={{fontSize:"18px", textAlign:"left"}}>
                             Lorem ipsum dolor sit amet consectetur. Mattis sed orci turpis euismod id eu sem. Proin urna cursus dolor nunc id ac mal. Lor...
                         </p>
-                        <div className="card-text p-2">
+                        <div className="card-text card-footer-btn p-2">
                             <span style={{fontSize:"18px", fontWeight:"700"}}>
                                 { isArticle == true ? "Read Article" :"See Detail Case Study" }
                             </span>
-                            <img style={{float:"right","margin-top" : "5px"}} src={arrowTopRightBlack} />
+                            <img id="arrow" style={{float:"right","margin-top" : "5px"}} src={arrowTopRightBlack} />
                         </div>
                     </div>
                 </div>

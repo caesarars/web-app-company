@@ -7,6 +7,31 @@
     border-radius: 18px;
 }
 
+.card img {
+    transform: scale(1.0);
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+
+.card:hover .card-footer-btn {
+    background-color: rgba(251, 171, 24, 1);
+    border-radius: 8px;
+    transform: scale(1.01);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card #arrow {
+    transform: rotate(0deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover #arrow {
+    transform: rotate(45deg);
+    transition: transform 0.3s ease-in-out;
+}
+
 .img-cards {
     border-radius: 18px 18px 0px 0px;
 }
@@ -22,3 +47,21 @@
     width: 358px;
     text-align: justify;
 }
+
+@keyframes zoomIn {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.2);
+    }
+  }
+
+  #img-card {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  img-card {
+    animation: zoomIn 0.3s forwards;
+
+  }
