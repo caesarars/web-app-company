@@ -42,13 +42,13 @@ class NavBar extends Component {
                     <div className="col-md-6 collapse navbar-collapse">
                         <ul className="navbar-nav mr-auto mynav d-flex justify-content-center">
                             <li onClick={() => this.handleClickMenu('Home')} 
-                                className={this.state.active == 'Home' ? 'nav-link menu-item-active' : 'nav-link menu-item'}>
+                                className={this.state.active == 'Home' ? 'nav-link menu-item-active bar-active' : 'nav-link menu-item'}>
                                <span className={this.state.active == 'Home' ? 'nav-item active' : 'nav-item non-active'}>
                                     Home
                                </span>
                             </li>
                             <li onClick={() => this.handleClickMenu('About')} 
-                                className={this.state.active == 'About' ? 'nav-link menu-item-active' : 'nav-link menu-item'}>
+                                className={this.state.active == 'About' ? 'nav-link menu-item-active bar-active' : 'nav-link menu-item'}>
                                 <span className={this.state.active == 'About' ? 'nav-item active' : 'nav-item non-active'}>
                                     About
                                 </span>

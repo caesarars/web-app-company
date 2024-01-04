@@ -27,11 +27,21 @@
 
 .menu-item-active {
     font-size: 1.3em;
-    margin-right: 12px;
+    margin-right: 10px;
     width: 96px;
 }
 
 .menu-item-active {
+    border-bottom: 4px solid black;
+    color : black;
+}
+
+.menu-item {
+    border-bottom: 4px solid black;
+    color : black;
+}
+
+.menu-item-active:hover {
     border-bottom: 4px solid black;
     color : black;
 }

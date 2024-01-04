@@ -10,3 +10,30 @@
     text-align: left;
     font-size: 20px;
 }
+
+.wrapper-startProjectBtn {
+    transform: translate(0, 0);
+    transition: transform 0.2s ease-in-out;
+}
+
+.wrapper-startProjectBtn:hover {
+    transform: translate(-10px, -10px);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.wrapper-seeOurWorks {
+    transform: translate(0, 0);
+    transition: transform 0.2s ease-in-out;
+}
+
+.wrapper-seeOurWorks:hover {
+    transform: translate(10px, -10px);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+#see-our-works:hover {
+    padding:8px;
+    border-bottom: 1px solid black;
+}
