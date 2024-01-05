@@ -19,7 +19,7 @@
     background-color: rgba(251, 171, 24, 1);
     border-radius: 8px;
     transform: scale(1.01);
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .card #arrow {
