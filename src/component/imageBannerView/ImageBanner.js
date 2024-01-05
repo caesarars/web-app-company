@@ -25,7 +25,7 @@ class ImageBanner extends React.Component {
                         <div className="col-md-3">
                             <div className="wrapper-btn-arr d-flex flex-column">
                                 <div id="button-arrow-top" style={{fontSize:"18px"}}>
-                                    Visit Virtual Office &nbsp; <img src={arrowUpRight} />
+                                    Visit Virtual Office &nbsp;&nbsp;<img id="arrow-right" src={arrowUpRight} />
                                 </div>
                             </div>
                         </div>
