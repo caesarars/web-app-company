@@ -20,8 +20,8 @@ class ServiceContent extends React.Component {
                             <img src={iconService1} style={{position:"relative", top:"20px", zIndex:"100"}}/>
                             <div className="content-text">
                                 <div className="d-flex flex-column align-items-center justify-content-center">
-                                    <p className="pt-5 mt-5 title-content">UI/UX Design</p>
-                                    <div className="p-3">
+                                    <p className="title-content">UI/UX Design</p>
+                                    <div className="wrapper-content-text">
                                         <span className="content">
                                             Lorem ipsum dolor sit amet consectetur. Volutpat sit lobortis vestibulum tellus hendrerit at feugiat adipiscing. Varius ut quam tincidunt.
                                         </span>
@@ -33,8 +33,8 @@ class ServiceContent extends React.Component {
                             <img src={iconService2} style={{position:"relative", top:"20px", zIndex:"100"}}/>
                             <div className="content-text">
                                 <div className="d-flex flex-column align-items-center justify-content-center">
-                                    <p className="pt-5 mt-5 title-content">Website App</p>
-                                    <div className="p-3">
+                                    <p className="title-content">Website App</p>
+                                    <div className="wrapper-content-text">
                                         <span className="content">
                                             Lorem ipsum dolor sit amet consectetur. Volutpat sit lobortis vestibulum tellus hendrerit at feugiat adipiscing. Varius ut quam tincidunt.
                                         </span>
@@ -46,8 +46,8 @@ class ServiceContent extends React.Component {
                             <img src={iconService3} style={{position:"relative", top:"20px", zIndex:"100"}}/>
                             <div className="content-text">
                                 <div className="d-flex flex-column align-items-center justify-content-center">
-                                    <p className="pt-5 mt-5 title-content">Mobile App</p>
-                                    <div className="p-3">
+                                    <p className="title-content">Mobile App</p>
+                                    <div className="wrapper-content-text">
                                         <span className="content">
                                             Lorem ipsum dolor sit amet consectetur. Volutpat sit lobortis vestibulum tellus hendrerit at feugiat adipiscing. Varius ut quam tincidunt.
                                         </span>
