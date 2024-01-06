@@ -56,7 +56,7 @@ class LatestWorks extends React.Component {
                         </h2>
                     </div>
                 </div>
-                <div className="row mt-5 pt-3">
+                <div className="row">
                     <div className="wrapper-cards">
                        {cardsImageComponent}
                     </div>

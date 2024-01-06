@@ -5,6 +5,7 @@
     background-color: #F5F5F5;
     margin-top:36px;
     border-radius: 18px;
+    position: relative;
 }
 
 .card img {
@@ -15,11 +16,36 @@
     transform: scale(1.05);
 }
 
+.card-footer-btn{
+    width: 100%;
+    margin: auto;
+    border-radius: 0px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:6px;
+    padding-right: 6px;
+    transition: 
+        padding-left 0.3s ease-in-out, 
+        padding-right 0.3s ease-in-out,
+        margin 0.3s ease-in-out, 
+        width 0.3s ease-in-out ;
+}
+
 .card:hover .card-footer-btn {
     background-color: rgba(251, 171, 24, 1);
     border-radius: 8px;
-    transform: scale(1.01);
-    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    width: 95%;
+    margin: 0 auto;
+    padding-left:18px;
+    padding-right: 18px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: 
+        padding-left 0.3s ease-in-out,
+        padding-right 0.3s ease-in-out,
+        background-color 0.3s ease-in-out,
+        margin 0.3s ease-in-out, 
+        width 0.3s ease-in-out ;
 }
 
 .card #arrow {
