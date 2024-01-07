@@ -13,15 +13,20 @@
 .wrapper-article-cards {
     display: flex;
     margin: 0 auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .type-article{
-    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    padding:8px;
+    cursor: pointer;
 }
 
 
-#rounded-orange{
+.rounded-orange{
     background-color:#FBAB18;
     color:white;
     border-radius: 32px;

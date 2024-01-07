@@ -7,6 +7,14 @@ import aksebilitasUxImgUrl from "../../static/img/aksebilitas-ux.png"
 
 
 class Article extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+          active: "allNews",
+        };
+    }
+
     render () {
 
         const arrayImageUrl = [ 
@@ -36,20 +44,20 @@ class Article extends React.Component {
                     <span id="title-read">Read Our Latest News & Article</span>
                 </div>
                 <div className="row mt-5">
-                    <div className="wrapper-reads" style={{width:"60%"}}>
-                        <div id="rounded-orange" class="type-article">
+                    <div className="wrapper-reads" style={{width:"70%"}}>
+                        <div className={this.state.active === 'allNews' ? "type-article rounded-orange" : "type-article"} onClick={() => this.setState({active:'allNews'})}>
                             All News & Blog
                         </div>
-                        <div class="type-article">
+                        <div className={this.state.active === 'design' ? "type-article rounded-orange" : "type-article"} onClick={() => this.setState({active:'design'})}>
                             Design
                         </div>
-                        <div class="type-article">
+                        <div className={this.state.active === 'tech' ? "type-article rounded-orange" : "type-article"} onClick={() => this.setState({active:'tech'})}>
                             Technology
                         </div>
-                        <div class="type-article">
+                        <div className={this.state.active === 'business' ? "type-article rounded-orange" : "type-article"} onClick={() => this.setState({active:'business'})}>
                             Business
                         </div>
-                        <div class="type-article">
+                        <div className={this.state.active === 'website' ? "type-article rounded-orange" : "type-article"} onClick={() => this.setState({active:'website'})}>
                             Website
                         </div>
                     </div>
