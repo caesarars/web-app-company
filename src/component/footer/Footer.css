@@ -26,6 +26,13 @@
     min-height: 56px;
     align-items: center;
     justify-content: center;
+    transform: translate(0, 0);
+    transition: transform 0.2s ease-in-out;
+}
+
+#lets-talk-btn:hover {
+    transform: translate(-10px, -10px);
+    transition: transform 0.2s ease-in-out;
 }
 
 #see-works-btn {
@@ -39,6 +46,13 @@
     min-height: 56px;
     align-items: center;
     justify-content: center;
+    transform: translate(0, 0);
+    transition: transform 0.2s ease-in-out;
+}
+
+#see-works-btn:hover{
+    transform: translate(-10px, -10px);
+    transition: transform 0.2s ease-in-out;
 }
 
 #img-arrow{

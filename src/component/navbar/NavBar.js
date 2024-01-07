@@ -71,7 +71,7 @@ class NavBar extends Component {
                                     Blog
                                 </span>
                             </li>
-                            <li style={{"marginLeft" : "16px"}}className="nav-link" id="contactus">
+                            <li className="nav-link" id="contactus">
                                 <span className="nav-item">Contact Us</span>
                             </li>
                         </ul>
