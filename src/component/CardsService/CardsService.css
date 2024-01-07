@@ -1,0 +1,42 @@
+.content-cards{
+    width: 376px;
+    height: 360px;
+    margin:36px;
+    transform: translate(0, 0);
+    transition: transform 0.2s ease-in-out;
+}
+
+.content-cards:hover {
+    transform: translate(-15px, -15px);
+    transition: transform 0.2s ease-in-out;
+}
+
+.content-text{
+    height: 280px;
+    background-color: #f5f5f5;    
+    position: relative;
+    z-index: 1;
+    top:-8%;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+
+.content-text h3 {
+    font-weight: bold;
+}
+
+.title-content {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 70px;
+}
+
+.wrapper-content-text {
+    width: 80%;
+    text-align: center;
+}
+
+.content {
+    font-size: 18px;
+}
