@@ -16,18 +16,22 @@ class ReviewCarousel extends React.Component {
       }
        arrayOfReview = [
         {
-            "index" : 0,
             "reviewBold" :"Lorem ipsum dolor sit amet consectetur.",
             "review" : "Tempus scelerisque sit pellentesque gravida donec massa massa mattis. Vulputate semper viverra purus non consectetur aliquet. In aliquet sit arcu lacus rhoncus vitae malesuada. Nibh magna viverra volutpat proin varius egestas in.",
             "by":"Anderson Sumarli",
             "jobTitle" : "CEO of Ajaib Group"
         },
         {
-            "index" : 1,
             "reviewBold" :"Kenapa harus beda agama? karena ya gitudah",
             "review" : "Tempus scelerisque sit pellentesque gravida donec massa massa mattis. Vulputate semper viverra purus non consectetur aliquet. In aliquet sit arcu lacus rhoncus vitae malesuada. Nibh magna viverra volutpat proin varius egestas in.",
             "by":"Caesar Arssetya",
             "jobTitle" : "CEO of DL Tech"
+        },
+        {
+            "reviewBold" :"Chungusida",
+            "review" : "Tempus scelerisque sit pellentesque gravida donec massa massa mattis. Vulputate semper viverra purus non consectetur aliquet. In aliquet sit arcu lacus rhoncus vitae malesuada. Nibh magna viverra volutpat proin varius egestas in.",
+            "by":"Raditya Dika",
+            "jobTitle" : "Content Creator"
         }
     ]
       
