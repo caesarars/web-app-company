@@ -10,7 +10,42 @@
     height: 360px;
 }
 
+.wrapper-arrow img:hover{
+    cursor: pointer;
+}
+
 .wrapper-arrow img {
     max-width: 100%; /* Adjust as needed */
     max-height: 100%;
+    
+}
+
+@keyframes slideInRight {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+  }
+
+.animateRight {
+    animation: slideInRight 0.5s ease-in-out;
+}
+
+.animateLeft {
+    animation: slideInLeft 0.5s ease-in-out;
 }
