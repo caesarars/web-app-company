@@ -1,6 +1,8 @@
 import React, {Component, useState} from "react";
 import {Menu, Image} from "semantic-ui-react";
 import logoKawanKerja from "../../static/img/dltech-logo-l.png"
+import { Outlet, Link } from "react-router-dom";
+
 
 import "./NavBar.css"
 
@@ -43,21 +45,29 @@ class NavBar extends Component {
                         <ul className="navbar-nav mr-auto mynav d-flex justify-content-center">
                             <li onClick={() => this.handleClickMenu('Home')} 
                                 className={this.state.active == 'Home' ? 'nav-link menu-item-active bar-active' : 'nav-link menu-item'}>
-                               <span className={this.state.active == 'Home' ? 'nav-item active' : 'nav-item non-active'}>
-                                    Home
-                               </span>
+                                <Link style={{textDecoration:"none"}} to={`/web-app-company/`} >
+                                    <span className={this.state.active == 'Home' ? 'nav-item active' : 'nav-item non-active'}>
+                                        Home
+                                </span>
+                                </Link>
+                               
                             </li>
                             <li onClick={() => this.handleClickMenu('About')} 
                                 className={this.state.active == 'About' ? 'nav-link menu-item-active bar-active' : 'nav-link menu-item'}>
-                                <span className={this.state.active == 'About' ? 'nav-item active' : 'nav-item non-active'}>
-                                    About
-                                </span>
+                                <Link style={{textDecoration:"none"}} to={`/web-app-company/about`}>
+                                    <span className={this.state.active == 'About' ? 'nav-item active' : 'nav-item non-active'}>
+                                        About
+                                    </span>
+                                </Link>
                             </li>
                             <li onClick={() => this.handleClickMenu('Services')} 
                                 className={this.state.active == 'Services' ? 'nav-link menu-item-active' : 'nav-link menu-item'}>
-                                <span className={this.state.active == 'Services' ? 'nav-item active' : 'nav-item non-active'}>
-                                    Services
-                                </span>
+                                <Link style={{textDecoration:"none"}} to={`/web-app-company/service`}>
+                                    <span className={this.state.active == 'Services' ? 'nav-item active' : 'nav-item non-active'}>
+                                        Services
+                                    </span>
+                                </Link>
+                                
                             </li>
                             <li onClick={() => this.handleClickMenu('Works')} 
                                 className={this.state.active == 'Works' ? 'nav-link menu-item-active' : 'nav-link menu-item'}>

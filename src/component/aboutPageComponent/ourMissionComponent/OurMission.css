@@ -1,0 +1,30 @@
+#our-mission {
+    text-align: right;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+#orange-line-2 {
+    border: 2px solid  #FBAB18;
+    width: 295px;
+    height: 4px;
+    background-color: #FBAB18;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: start;
+}
+
+.wrapper-orange-line-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 36px;
+}
+
+.wrapper-orange-line-2 > div {
+    width: 100px;
+}

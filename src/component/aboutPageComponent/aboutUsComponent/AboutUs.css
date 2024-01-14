@@ -1,0 +1,23 @@
+.wrapper-left-aboutus{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper-text h1 {
+    text-align: left;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.wrapper-text p {
+    text-align: justify;
+    width: 540px;
+    font-size:20px;
+    font-weight: 400;
+}
+
+.margintop-100 {
+    margin-top: 100px;
+}

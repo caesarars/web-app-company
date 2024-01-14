@@ -23,7 +23,6 @@ class Content extends React.Component {
                     <LatestWorks/>
                     <ReviewCarousel />
                     <Article/>
-                    <Footer/>
                 </div>
             </div>
         )

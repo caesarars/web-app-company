@@ -1,0 +1,46 @@
+.right-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: start;
+}
+
+#our-vision {
+    text-align: left;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+#orange-line {
+    border: 2px solid  #FBAB18;
+    width: 320px;
+    height: 4px;
+    background-color: #FBAB18;
+}
+
+#our-vision-text {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.wrapper-our-vision {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-orange-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 36px;
+}
+
+.wrapper-orange-line > div {
+    width: 320px;
+}
+
+.row-vision {
+    display: flex;
+    flex-direction: row;
+}
