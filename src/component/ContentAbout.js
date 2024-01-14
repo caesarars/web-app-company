@@ -3,6 +3,7 @@ import "./ContentAbout.css"
 import AboutUs from "./aboutPageComponent/aboutUsComponent/AboutUs";
 import OurVision from "./aboutPageComponent/ourVisionComponent/OurVision";
 import OurMission from "./aboutPageComponent/ourMissionComponent/OurMission";
+import TellMe from "./aboutPageComponent/tellMeComponent/TellMeComponent";
 
 class ContentAbout extends React.Component {
     render () {
@@ -11,6 +12,7 @@ class ContentAbout extends React.Component {
                 <AboutUs/>
                 <OurVision/>
                 <OurMission/>
+                <TellMe/>
             </div>
         )
     }

@@ -17,7 +17,7 @@ class Footer extends React.Component {
                             <div className="wrapper-left-footer">
                                 <img src={dlTechLogo} />
                                 <div>
-                                    <span style={{fontSize:"16px"}}>Lorem ipsum dolor sit amet consectetur. At ultrices elementum ultrices velit a id. Nibh enim diam euismod hendrerit ac enim.</span>
+                                    <p style={{fontSize:"16px", textAlign:"justify"}}>Lorem ipsum dolor sit amet consectetur. At ultrices elementum ultrices velit a id. Nibh enim diam euismod hendrerit ac enim.</p>
                                 </div>
                                 <div className="mt-3" id="info-contact">
                                    <p><img src={mailIcon} style={{width:"20px", height:"20px"}}/> &nbsp;&nbsp; info@kawankerja.co</p>

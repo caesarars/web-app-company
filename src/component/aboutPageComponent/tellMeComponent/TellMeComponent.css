@@ -1,0 +1,9 @@
+.container-tellme {
+    height: 366px;
+    background-color: antiquewhite;
+}
+
+.wrapper-text-tellme {
+    display: flex;
+    justify-content: center;
+}
