@@ -15,6 +15,10 @@
     text-align: left;
 }
 
+#wrapper-text-right > p {
+    text-align: left;
+}
+
 #lets-talk-btn {
     display: flex;
     background-color: #FBAB18;
