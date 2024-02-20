@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/web-app-company/static/css/main.0028d36f.css",
-    "main.js": "/web-app-company/static/js/main.7b514752.js",
+    "main.css": "/web-app-company/static/css/main.d0413da6.css",
+    "main.js": "/web-app-company/static/js/main.104db44c.js",
     "static/js/787.a9f86cd4.chunk.js": "/web-app-company/static/js/787.a9f86cd4.chunk.js",
     "static/media/background-image.jpeg": "/web-app-company/static/media/background-image.288d061f584620c90876.jpeg",
     "static/media/brand-icons.svg": "/web-app-company/static/media/brand-icons.6729d29753e000c17489.svg",
@@ -14,6 +14,7 @@
     "static/media/welcome-about.png": "/web-app-company/static/media/welcome-about.1f95898effe1e3656000.png",
     "static/media/amaan-project.png": "/web-app-company/static/media/amaan-project.c56e77df45931d6b8321.png",
     "static/media/raya-mobile-banking.png": "/web-app-company/static/media/raya-mobile-banking.454fbbf8d108302f52e1.png",
+    "static/media/detail_work.png": "/web-app-company/static/media/detail_work.edf740ad9f7c30ad5cdd.png",
     "static/media/outline-icons.svg": "/web-app-company/static/media/outline-icons.9c4845b4b41ef40a22fa.svg",
     "static/media/icons.eot": "/web-app-company/static/media/icons.a01e3f2d6c83dc3aee17.eot",
     "static/media/icons.ttf": "/web-app-company/static/media/icons.c656b8caa454ed19b9a2.ttf",
@@ -24,8 +25,13 @@
     "static/media/our-vision.png": "/web-app-company/static/media/our-vision.1eacb45ea916cba53fb0.png",
     "static/media/brand-icons.woff": "/web-app-company/static/media/brand-icons.cac87dc00c87a5d74711.woff",
     "static/media/brand-icons.woff2": "/web-app-company/static/media/brand-icons.278156e41e0ad908cf7f.woff2",
+    "static/media/dtl_app_1.png": "/web-app-company/static/media/dtl_app_1.ba1f7104220643ec421b.png",
+    "static/media/dtl_app_2.png": "/web-app-company/static/media/dtl_app_2.ba1f7104220643ec421b.png",
+    "static/media/dtl_app_4.png": "/web-app-company/static/media/dtl_app_4.24bb0f6dcc70d4f284a9.png",
     "static/media/icons.woff": "/web-app-company/static/media/icons.425399f81e4ce7cbd967.woff",
+    "static/media/dtl_app_3.png": "/web-app-company/static/media/dtl_app_3.7723241f7f3ae5a27b75.png",
     "static/media/icons.woff2": "/web-app-company/static/media/icons.38c6d8bab26db77d8c80.woff2",
+    "static/media/dtl_app_5.png": "/web-app-company/static/media/dtl_app_5.5c7b8c212476ba342c1d.png",
     "static/media/responsive-design.png": "/web-app-company/static/media/responsive-design.a7a419de2c5ec4a28202.png",
     "static/media/outline-icons.eot": "/web-app-company/static/media/outline-icons.752905fa5edf21fc52a1.eot",
     "static/media/outline-icons.ttf": "/web-app-company/static/media/outline-icons.5367103510b27b784827.ttf",
@@ -36,12 +42,12 @@
     "static/media/outline-icons.woff2": "/web-app-company/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/web-app-company/index.html",
     "static/media/arrow-up-right.svg": "/web-app-company/static/media/arrow-up-right.0cabbaa3ca4f36de63df7fcf28f66fab.svg",
-    "main.0028d36f.css.map": "/web-app-company/static/css/main.0028d36f.css.map",
-    "main.7b514752.js.map": "/web-app-company/static/js/main.7b514752.js.map",
+    "main.d0413da6.css.map": "/web-app-company/static/css/main.d0413da6.css.map",
+    "main.104db44c.js.map": "/web-app-company/static/js/main.104db44c.js.map",
     "787.a9f86cd4.chunk.js.map": "/web-app-company/static/js/787.a9f86cd4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0028d36f.css",
-    "static/js/main.7b514752.js"
+    "static/css/main.d0413da6.css",
+    "static/js/main.104db44c.js"
   ]
 }
