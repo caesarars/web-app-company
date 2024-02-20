@@ -20,7 +20,7 @@ const ContentDetailWork = () => {
     const fetchDetail = async () => {
         
         try {
-            const response = await fetch(`http://localhost:3003/record/${id}`);
+            const response = await fetch(`https://us-central1-image-storing-project.cloudfunctions.net/app/record/${id}`);
 
             if (!response.ok) {
                 throw new Error('Response not found');
