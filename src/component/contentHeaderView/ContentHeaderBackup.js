@@ -8,7 +8,7 @@ class ContentHeader extends React.Component {
     render() {
 
         return (
-            <div className="">
+            <div className="row">
                     <div id="wrapper_header" className="d-flex align-items-center " style={{height:"60vh"}}>
                         <div className="col-md-1"></div>
                         <div className="col-md-5" style={{maxWidth:"520px"}}>
@@ -30,7 +30,7 @@ class ContentHeader extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-1" id="or_component">
+                                <div className="col-md-1" style={{textAlign:"left" , paddingTop:"16px" }}>
                                     <span style={{fontSize:"20px"}}>or</span>
                                 </div>
                                 <div className="col-md-5" style={{textAlign:"left" , paddingTop:"18px"}} >

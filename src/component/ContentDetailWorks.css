@@ -1,0 +1,83 @@
+#kembali {
+    color: rgba(251, 171, 24, 1);
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.wrapper_detail_work{
+    height: 360vh;
+    padding-top: 48px;
+}
+
+.wrapper_title_project {
+    margin-top:36px;
+}
+
+#title_project {
+    font-size:20px;
+    color : #686868;
+    text-align: left;
+}
+
+#project_jargont {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+}
+
+#project_desc {
+    font-size: 20px;
+    text-align: left;
+}
+
+#project_range {
+    font-size: 20px;
+}
+
+#project_year {
+    text-align: left;
+    
+}
+
+.wrapper_detail_image {
+    text-align: right;
+}
+.wrapper_outline_project {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.wrapper_outline_project li {
+    margin-bottom: 24px;
+}
+
+.wrapper_project_desc div {
+    margin-bottom: 24px;
+}
+
+.wrapper_project_desc div span {
+    text-align: left;
+}
+
+#project_background_txt {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#project_background_desc_txt {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.wrapper_img_dtl {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.wrapper_img_dtl img {
+    width: 422px;
+    height: 422px;
+}

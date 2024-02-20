@@ -4,8 +4,6 @@ import logoKawanKerja from "../../static/img/dltech-logo-l.png"
 import { Outlet, Link } from "react-router-dom";
 
 
-import "./NavBar.css"
-
 class NavBar extends Component {
 
     constructor(props) {
@@ -31,18 +29,25 @@ class NavBar extends Component {
 
     render() {
         return (
-            <div>
-                <nav className="navbar navbar-expand-lg navbar-light bg-light row">
-                    <div className="col-md-2"></div>
+            <div className="container_nav">
+                <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <div className="container-fluid">
+                <div className="col-md-2"></div>
                     <div className="col-md-2">
                         <div className="d-flex align-items-end"> 
-                            <img src={logoKawanKerja} />
+                            <img id="imageLogo" src={logoKawanKerja} />
                         </div>
                         
                     </div>
                     <div className="col-md-1"></div>
+                    <div className="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </div>
+
                     <div className="col-md-6 collapse navbar-collapse">
-                        <ul className="navbar-nav mr-auto mynav d-flex justify-content-center">
+                        <ul className="collapse navbar-nav mr-auto mynav d-flex flex-row justify-content-center">
                             <li onClick={() => this.handleClickMenu('Home')} 
                                 className={this.state.active == 'Home' ? 'nav-link menu-item-active bar-active' : 'nav-link menu-item'}>
                                 <Link style={{textDecoration:"none"}} to={`/web-app-company/`} >
@@ -71,9 +76,11 @@ class NavBar extends Component {
                             </li>
                             <li onClick={() => this.handleClickMenu('Works')} 
                                 className={this.state.active == 'Works' ? 'nav-link menu-item-active' : 'nav-link menu-item'}>
-                                <span className={this.state.active == 'Works' ? 'nav-item active' : 'nav-item non-active'}>
+                                 <Link style={{textDecoration:"none"}} to={`/web-app-company/works`}>
+                                    <span className={this.state.active == 'Works' ? 'nav-item active' : 'nav-item non-active'}>
                                     Works
-                                </span>
+                                    </span>
+                                </Link>
                             </li>
                             <li onClick={() => this.handleClickMenu('Blog')} 
                                 className={this.state.active == 'Blog' ? 'nav-link menu-item-active' : 'nav-link menu-item'}>
@@ -86,6 +93,8 @@ class NavBar extends Component {
                             </li>
                         </ul>
                     </div>
+                </div>
+                    
                     
                 </nav>
             </div>

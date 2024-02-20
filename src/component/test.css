@@ -1,0 +1,12 @@
+@media (max-width: 600px) {
+    #navbarCollapse {
+       display: none;
+    }
+  }
+
+  /* Show the hamburger menu when the screen width is 600px or less */
+  @media (max-width: 600px) {
+    .hamburger-menu {
+      display: inline-block;
+    }
+  }

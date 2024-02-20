@@ -1,0 +1,76 @@
+#container-ourworks {
+    
+    margin-top: 36px;
+    
+}
+
+.list_of_service {
+    list-style: none;
+    margin-top: 64px;
+}
+
+.list_of_service li {
+    display: inline;
+    padding:16px;
+    margin:16px;
+}
+
+.list_of_service li {
+    font-size: 20px;
+}
+
+.list_of_service li:hover {
+    cursor: pointer;
+}
+
+.wrapper-article-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#our-work-title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.subhead {
+    font-size:20px;
+}
+
+.active_list {
+    background-color: rgba(251, 171, 24, 1);
+    border-radius: 32px;
+    color:white;
+}
+
+.pagination_container {
+    margin: 0 auto;
+}
+
+.pagination_container ul li {
+    list-style: none;
+    display: inline;
+}
+
+.pagination_container ul li:hover{
+   cursor: pointer;
+}
+
+.pages {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.active_pages {
+    color :rgba(251, 171, 24, 1);
+    border-bottom: 1px solid rgba(251, 171, 24, 1);
+}
+
+.chevron img{
+    height: 20px;
+    margin-bottom: 5px;
+}
