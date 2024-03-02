@@ -26,7 +26,7 @@ const NavBar = (props) => {
     }, [currentLocation])
     
         return (
-            <div id="main_wrapper_nav" className="row">
+            <div id="main_wrapper_nav">
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <div className="container-fluid container">
                         
