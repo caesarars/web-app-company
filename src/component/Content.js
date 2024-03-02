@@ -17,8 +17,6 @@ class Content extends React.Component {
                     <ContentHeader/>
                     <ServiceContent/>
                     <ImageBanner/>
-                </div>
-                <div>
                     <Partners />
                     <LatestWorks/>
                     <ReviewCarousel />

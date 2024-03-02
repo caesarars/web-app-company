@@ -1,0 +1,26 @@
+#what_we_do {
+    text-align: left;
+    font-size:48px;
+    font-weight: 700;
+}
+
+#text_2 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    width: 583px;
+}
+
+.start_project {
+    width: 239px;
+    border-radius: 32px;
+    height: 56px;
+}
+
+.start_project_text {
+    width: 139px;
+    height: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
