@@ -4,6 +4,7 @@ import AboutUs from "./aboutPageComponent/aboutUsComponent/AboutUs";
 import OurVision from "./aboutPageComponent/ourVisionComponent/OurVision";
 import OurMission from "./aboutPageComponent/ourMissionComponent/OurMission";
 import TellMe from "./aboutPageComponent/tellMeComponent/TellMeComponent";
+import Partner from "../component/partnersView/Partners";
 
 class ContentAbout extends React.Component {
     render () {
@@ -13,6 +14,7 @@ class ContentAbout extends React.Component {
                 <OurVision/>
                 <OurMission/>
                 <TellMe/>
+                <Partner isInAbout={true}/>
             </div>
             
            

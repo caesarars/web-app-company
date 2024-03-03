@@ -11,10 +11,12 @@ import logoTelin from "../../static/img/telin.png"
 import logoCashbac from "../../static/img/cashbac.png"
 import logoCodex from "../../static/img/codex.png"
 
-class Partner extends React.Component {
-    render () {
+const Partner = (props) =>{
+
+        const isInAbot = props.isInAbout ;
+
         return (
-            <div id="wrapper-container-partner">
+            <div id="wrapper-container-partner" className={isInAbot ? 'bg-white' : 'bg-light'}>
                 <div className="row pt-2">
                     <div className="pt-5 mt-5 d-flex flex-column align-items-center justify-content-center">
                         <span style={{fontWeight:"bold", fontSize: "32px"}}>Our Trusted Partners:</span>
@@ -62,7 +64,6 @@ class Partner extends React.Component {
                 </div>
             </div>
         )
-    }
 }
 
 export default Partner;
