@@ -82,6 +82,11 @@
     font-size: 18px;
 }
 
+.wrapper_hamburger {
+  position: absolute;
+  right: 5%;
+}
+
     .hamburger-menu {
     display: none; /* Initially hidden */
     cursor: pointer;
