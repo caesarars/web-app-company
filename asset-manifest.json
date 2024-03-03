@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/web-app-company/static/css/main.7f914f41.css",
-    "main.js": "/web-app-company/static/js/main.cfeb4b49.js",
+    "main.css": "/web-app-company/static/css/main.ad246bcb.css",
+    "main.js": "/web-app-company/static/js/main.67c27532.js",
     "static/js/787.a9f86cd4.chunk.js": "/web-app-company/static/js/787.a9f86cd4.chunk.js",
     "static/media/background-image.jpeg": "/web-app-company/static/media/background-image.288d061f584620c90876.jpeg",
     "static/media/brand-icons.svg": "/web-app-company/static/media/brand-icons.6729d29753e000c17489.svg",
@@ -44,12 +44,12 @@
     "static/media/outline-icons.woff2": "/web-app-company/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/web-app-company/index.html",
     "static/media/arrow-up-right.svg": "/web-app-company/static/media/arrow-up-right.0cabbaa3ca4f36de63df7fcf28f66fab.svg",
-    "main.7f914f41.css.map": "/web-app-company/static/css/main.7f914f41.css.map",
-    "main.cfeb4b49.js.map": "/web-app-company/static/js/main.cfeb4b49.js.map",
+    "main.ad246bcb.css.map": "/web-app-company/static/css/main.ad246bcb.css.map",
+    "main.67c27532.js.map": "/web-app-company/static/js/main.67c27532.js.map",
     "787.a9f86cd4.chunk.js.map": "/web-app-company/static/js/787.a9f86cd4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f914f41.css",
-    "static/js/main.cfeb4b49.js"
+    "static/css/main.ad246bcb.css",
+    "static/js/main.67c27532.js"
   ]
 }
