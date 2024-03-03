@@ -1,9 +1,49 @@
 .container-tellme {
     height: 366px;
-    background-color: antiquewhite;
+    background-image: urL('/Users/caesararssetya/Desktop/project/kuncrit/web-app-company/src/static/img/background_tellus.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex: row;
+    align-items: center;
 }
 
 .wrapper-text-tellme {
     display: flex;
+    flex-direction: column;
+}
+
+#tell_us_text {
+    text-align: left;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#doesnt_matter_text {
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.wrapper_tell {
+    display: flex;   
+}
+
+#lets_talk_btn {
+    width: 195px;
+    height: 60px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
+
+#lets_talk_btn > p{
+   font-size: 20px;
+   font-weight: 700;
+}
+
+#lets_talk_btn > p > img{
+    padding-bottom: 5px;
+ }

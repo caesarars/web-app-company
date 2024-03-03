@@ -7,7 +7,6 @@ import ContentHeader from "./contentHeaderView/ContentHeader";
 import LatestWorks from "./latestWorkView/LatestWorks";
 import ReviewCarousel from "./reviewCarouselView/ReviewCarousel";
 import Article from "./articleView/Article";
-import Footer from "./footer/Footer";
 
 class Content extends React.Component {
     render() {
@@ -17,7 +16,7 @@ class Content extends React.Component {
                     <ContentHeader/>
                     <ServiceContent/>
                     <ImageBanner/>
-                    </div>
+                </div>
                     <Partners />
                 <div className="container">
                     <LatestWorks/>

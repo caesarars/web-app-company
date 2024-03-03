@@ -106,7 +106,7 @@ class ReviewCarousel extends React.Component {
                                 <img onClick={() => this.handleRightClick()} src={rightArrow} />
                             </div>
                         </div>
-                  ../  </div>
+                    </div>
             </div>
         )
     }

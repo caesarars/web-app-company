@@ -16,6 +16,7 @@ class OurVision extends React.Component {
                             <div className="row-vision">
                                     <p id="our-vision">Our Vision
                                     </p>
+                                    
                                     <div className="wrapper-orange-line">
                                         <div id="orange-line"></div>
                                     </div>

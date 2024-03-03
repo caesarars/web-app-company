@@ -34,10 +34,12 @@
     justify-content: center;
     align-items: center;
     margin-left: 36px;
+    width: 310px;
+    padding-bottom: 10px;
 }
 
 .wrapper-orange-line > div {
-    width: 320px;
+    width: 200px;
 }
 
 .row-vision {
