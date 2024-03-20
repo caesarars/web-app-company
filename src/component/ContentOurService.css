@@ -1,3 +1,7 @@
+.wrapper_content_our_service{
+    height: 315vh;
+}
+
 #what_we_do {
     text-align: left;
     font-size:48px;
@@ -15,12 +19,105 @@
     width: 239px;
     border-radius: 32px;
     height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .start_project_text {
-    width: 139px;
-    height: 15px;
     font-size: 20px;
     font-weight: 700;
-    margin-top: 20px;
+}
+
+.reason_why {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.container_why_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.card_why {
+    width: 376px;
+    height: 280px;
+    background-color: #f3f3f3;
+    margin:10px;
+    box-shadow: 0px 0px 0px 0px #0000000A;
+    border-radius: 16px;
+    box-shadow: 8px 8px 10px 1px rgba(0, 0, 0, 0.083);
+}
+
+.wrapper_icon_why {
+    display: flex;
+   justify-content: center;
+}
+
+.icon_why {
+    position: relative;
+    top:-50px;
+}
+
+.reason_header {
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    top:-20px;
+}
+
+.reason_desc {
+    font-size: 18px;
+    font-weight: 400;
+    width: 312px;
+    position: relative;
+    top:-18px;
+    margin: 0 auto;
+}
+
+.wrapper_service_1{
+   border-radius: 16px;
+   border : 1px solid #f3f3f3;
+   height: 502px;
+   box-shadow: 8px 8px 10px 1px rgba(0, 0, 0, 0.083);
+}
+
+.wrapper_s1 {
+   
+}
+
+.bg-lightgrey {
+    background-color: #f3f3f3;
+    border-radius: 0px 16px 16px 0px;
+}
+
+#title_service1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.left_s1 > p {
+    text-align: left;
+   
+}
+
+.left_s1 {
+    margin:24px;
+    padding: 16px;
+}
+
+.fs16px {
+    font-size:16px;
+}
+
+.timeline {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.mb24px {
+    margin-bottom:48px;
 }

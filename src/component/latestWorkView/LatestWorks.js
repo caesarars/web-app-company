@@ -31,7 +31,6 @@ class LatestWorks extends React.Component {
 
         const caseStudiesStyles = {textAlign:"left", fontWeight:"700" , fontSize: "36px"}
 
-
         return (
             <div className="container mt-5 pt-5 mb-5 pb-5">
                 <div className="row">

@@ -7,7 +7,7 @@ class OurMission extends React.Component {
     render () {
         return (
             <div className="container mt-5">
-                <div className="row justify-content-start">
+                <div className="row justify-content-start pb-5">
                     <div className="col-md-5 left-section">
                         <div className="wrapper-left-text">
                             <div className="row-vision mb-2">

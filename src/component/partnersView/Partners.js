@@ -13,15 +13,25 @@ import logoCodex from "../../static/img/codex.png"
 
 const Partner = (props) =>{
 
-        const isInAbot = props.isInAbout ;
-
+        const isInAbout = props.isInAbout ;
+        const trustedStyle = 
+            {
+                fontWeight:isInAbout ? '400' : '700', 
+                fontSize: isInAbout  ? '24px' : '32px',
+                paddingBottom: isInAbout ? '10px' : '0px'
+            }
+        
         return (
-            <div id="wrapper-container-partner" className={isInAbot ? 'bg-white' : 'bg-light'}>
+            <div id="wrapper-container-partner" className={isInAbout ? 'bg-white' : 'bg-light'}>
                 <div className="row pt-2">
                     <div className="pt-5 mt-5 d-flex flex-column align-items-center justify-content-center">
-                        <span style={{fontWeight:"bold", fontSize: "32px"}}>Our Trusted Partners:</span>
-                        <span style={{fontWeight:"bold", fontSize: "32px"}}>A Testament to Our Success</span>
-                        <div id="black-box"></div>
+                        <span style={trustedStyle}>
+                            Our Trusted Partners  {isInAbout ? '' : ":"}   
+                        </span>
+                        <span style={{fontWeight:"bold", fontSize: "32px", width : isInAbout ? '600px' : 'auto'}}>
+                            {isInAbout ? 'We Had The Privilege To Work With Brands & Companies' : 'A Testament to Our Success' }
+                        </span>
+                        <div style={{display : isInAbout ? "none" : "block"}} id="black-box"></div>
                     </div>
                 </div>
                 <div className="row mt-5 pt-3">

@@ -9,7 +9,7 @@ class Service extends React.Component {
             <div>
                 <NavBar/>
                 <ContentOurService />
-                
+                <Footer/>
             </div>
         )
     }

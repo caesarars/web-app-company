@@ -20,7 +20,9 @@ class Content extends React.Component {
                     <Partners />
                 <div className="container">
                     <LatestWorks/>
-                    <ReviewCarousel />
+                </div>
+                <ReviewCarousel />
+                <div className="container">
                     <Article/>
                 </div>
             </div>
