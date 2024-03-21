@@ -24,9 +24,7 @@ const OurWorks = () => {
                 'page' : page,       // Current page number
                 'sizePerPage' : sizePerPage // Number of records per page
             }).toString();
-
-            console.log(queryParams);
-
+            
             const response = await fetch(`https://us-central1-image-storing-project.cloudfunctions.net/app/records?${queryParams}`);
 
             if (!response.ok) {
@@ -38,14 +36,17 @@ const OurWorks = () => {
             console.log(Array.isArray(dataResponse.records))
 
             if (dataResponse && Array.isArray(dataResponse.records)) {
+                console.log("data --> ", data)
                 setData(dataResponse.records);
                 setTotalPages(dataResponse.totalPages)
+                setLoading(false)
             }
 
         } catch (error) {
             console.log(error)
+            setLoading(false)
         }
-        setLoading(false)
+        
     }
 
     const onClickType = async (type) => {
@@ -80,27 +81,25 @@ const OurWorks = () => {
     }
 
     const iteratePages = () => {
-
         const items =  Array.from({ length: totalPages }, (_, index) => index + 1);
+
         return (
-            <>
-              {items.map((item) => (
-                <li className={page == item ? 'pages active_pages' : 'pages'} 
-                    onClick={ () => onHandlePages(item) }
-                    key={item}>{item}</li>
-              ))}
+                <>
+                {items.map((item) => (
+                    <li className={page === item ? 'pages active_pages' : 'pages'} 
+                        onClick={ () => onHandlePages(item) }
+                        key={item}>{item}</li>
+                ))}
               </>
           );
     }
 
-    useEffect(  () => {
+    useEffect(() => {
         try {
-            console.log(process.env.TEST)
             fetchRecord('');
         }catch(error) {
             console.log(error)
         }
-        console.log(linkActive)
     }, []) 
         
         return (
@@ -129,10 +128,10 @@ const OurWorks = () => {
                 </div>
 
                 <div>
-                    { !isLoading ? <ContentService data={data}/> : loadingComponent()}
+                    { !isLoading && data ? <ContentService data={data}/> : loadingComponent()}
                 </div>
 
-               { !isLoading ? (
+               { !isLoading && data  ? (
                     <div className="row mt-5 pt-5 mb-5 pb-2">
                         <div className="pagination_container">
                             <ul>

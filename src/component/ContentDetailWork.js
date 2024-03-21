@@ -40,6 +40,14 @@ const ContentDetailWork = () => {
         }
     }
 
+    const loadingComponent = () => {
+        return (
+            <div className="spinner-border" role="status" style={{width:"3rem", height:"3rem", marginTop:'20%'}}>
+               <span className="visually-hidden">Loading...</span>
+            </div>
+        )
+    }
+
     useEffect(() => {
         fetchDetail()
     }, [])
@@ -103,10 +111,12 @@ const ContentDetailWork = () => {
                         </div>
                     </div>
                     <div className="col-md-6">
-                        <div className="wrapper_detail_image">
-                            <img style={{width:"600px", height:"500px"}}  src={detailData.imgDetail}/>
-                        </div>
-                        
+                            { detailData.imgDetail ? 
+                                <div className="wrapper_detail_image">
+                                    <img style={{width:"600px", height:"500px"}}  src={detailData.imgDetail}/> 
+                                </div>: 
+                                loadingComponent()
+                            }                        
                     </div>
                 </div>
                 <div className="row mt-5 pt-5">
