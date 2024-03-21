@@ -1,0 +1,23 @@
+.blog_card_container {
+    width: 80%;
+    margin: 12px auto;
+}
+
+.blog_left_content {
+    width: 60%;
+}
+
+#title_blog {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    
+}
+
+#headline_blog {
+    text-align: justify;
+}
+
+#image_blog{
+    height: 240px;
+}

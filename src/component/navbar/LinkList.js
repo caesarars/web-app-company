@@ -33,7 +33,7 @@ const LinkList = (props) => {
                     </span>
                 </Link>
                 <Link className={ currentLocation === 'blog' ? 'nav-item active' : 'nav-item non-active'} 
-                 to={`/web-app-company`}>
+                 to={`/web-app-company/blog`}>
                                     <span>
                                         Blog
                                     </span>

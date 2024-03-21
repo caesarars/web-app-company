@@ -1,0 +1,18 @@
+.blog_container {
+    height: 350vh;
+}
+
+.header_blog {
+    margin-top:36px;
+    margin-bottom: 120px;
+}
+
+#our_blog {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+#desc_blog {
+    font-size: 20px;
+    font-weight: 400;
+}
