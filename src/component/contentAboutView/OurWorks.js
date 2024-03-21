@@ -11,9 +11,12 @@ const OurWorks = () => {
     const [page, setPage] = useState(1);
     const [sizePerPage, setSizePerPage] = useState(9);
     const [linkActive, setLinkActive] = useState("allCases")
+    const [ isLoading, setLoading ] = useState(false);
 
     const fetchRecord = async (type , page = 1) => {
+        setLoading(true)
         try {
+           
             setPage(page)
             console.log('running fetch record...')
             const queryParams = new URLSearchParams({
@@ -42,6 +45,7 @@ const OurWorks = () => {
         } catch (error) {
             console.log(error)
         }
+        setLoading(false)
     }
 
     const onClickType = async (type) => {
@@ -65,6 +69,14 @@ const OurWorks = () => {
     const onHandlePages = (item) => {
         setPage(item)
         fetchRecord('' , item)
+    }
+
+    const loadingComponent = () => {
+        return (
+            <div className="spinner-border" role="status" style={{width:"3rem", height:"3rem", margin:'64px'}}>
+               <span className="visually-hidden">Loading...</span>
+            </div>
+        )
     }
 
     const iteratePages = () => {
@@ -117,9 +129,10 @@ const OurWorks = () => {
                 </div>
 
                 <div>
-                    { data ? <ContentService data={data}/> : 'No Data'}
+                    { !isLoading ? <ContentService data={data}/> : loadingComponent()}
                 </div>
-               { data != null ? (
+
+               { !isLoading ? (
                     <div className="row mt-5 pt-5 mb-5 pb-2">
                         <div className="pagination_container">
                             <ul>
@@ -135,7 +148,7 @@ const OurWorks = () => {
                             </ul>
                         </div>
                     </div>
-               ) : 'No Data'}
+               ) : ''}
                 
             </div>
         )
