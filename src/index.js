@@ -13,6 +13,8 @@ import About from "./pages/About"
 import Works from './pages/Works';
 import DetailWork from "./pages/DetailWork"
 import Test from './component/test';
+import store from './store';
+import { Provider } from 'react-redux';
 
 import {
   createBrowserRouter,
@@ -57,7 +59,10 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+      <Provider store={store}>
+        <RouterProvider router={router}>
+      </RouterProvider>
+      </Provider>
   </React.StrictMode>
 );
 

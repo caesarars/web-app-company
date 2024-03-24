@@ -1,12 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useSelector, useDispatch } from 'react-redux'
+import { toggle } from "../../modalReducer";
+import CardModal from "../CardModal/CardModal";
+
 
 
 const LinkList = (props) => {
 
+    // get value from state redux toggleModal
+    const dispatch = useDispatch()
     const currentLocation = props.currentLocation
 
     return (
+        <>
         <div id="navbarNav" className="collapse navbar-collapse justify-content-end">
             <Link 
                     to={`/web-app-company/`}>
@@ -38,10 +45,12 @@ const LinkList = (props) => {
                                         Blog
                                     </span>
                                 </Link>
-                                <Link className="nav-link" id="contactus" to={"/web-app-company"}>
+                                <Link className="nav-link" id="contactus" onClick={ () => dispatch(toggle())}>
                                     <span className="nav-item">Contact Us</span>
-                                </Link>
+                                </Link>           
         </div>
+        <CardModal />
+        </>
     )
 }
 
